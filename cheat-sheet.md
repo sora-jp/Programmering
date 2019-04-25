@@ -1,4 +1,5 @@
 # Cheat-sheet
+=====
 ## Matematik
 ```python
 =	# Stoppa in värdet till höger i variabeln till vänster (i = 2)
