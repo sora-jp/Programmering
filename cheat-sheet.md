@@ -1,26 +1,24 @@
-Matematik
-	=	Stoppa in värdet till höger i variabeln till vänster (i = 2)
-	+	Addition
-	-	Subtraktion
-	*	Multiplikation
-	/	Division
-	%	Division, men du får resten av divisionen. (var försiktig med negativa tal)
-			Ex. 5 % 3 = 2, 9 % 2 = 1
+# Matematik
+```python
+=	Stoppa in värdet till höger i variabeln till vänster (i = 2)
++	Addition
+-	Subtraktion
+*	Multiplikation
+/	Division
+%	Division, men du får resten av divisionen (var försiktig med negativa tal)
+		5 % 3 = 2, 9 % 2 = 1
 
-	**	Upphöjt till (5**2 = 52 = 25)
-	x++	Ökar variabeln x med 1 (funkar bara på nummer)
-	x--	Minskar variabeln x med 1 (funkar bara på nummer)
-	==	Jämför två värden och kollar om de har samma värde
-	a is B	Kollar om värdet a är av typ B.
-
-Typer:	
-int	Ett vanligt heltal, kan INTE vara t.ex. 2.3, utan då slänger man bort delen efter 
-punkten, så att det blir 2
-float	Ett flyttal, alltså kan det vara 2.3. Flyttal kan dessutom vara oändliga eller 
-NaN (inte ett tal alls)
+**	Upphöjt till (5**2 = 52 = 25)
+==	Jämför två värden och kollar om de har samma värde
+a is B	Kollar om värdet a är av typ B.
+```
+# Typer	
+```
+int	Ett vanligt heltal, kan INTE vara t.ex. 2.3, utan då slänger man bort delen efter punkten, så att det blir 2
+float	Ett flyttal, alltså kan det vara 2.3. Flyttal kan dessutom vara oändliga eller NaN (inte ett tal alls)
 string	Text, t.ex. "hej". Man kan addera strängar, t.ex. "a" + "b" = "ab".
 		Man kan också multiplicera strängar, t.ex. "a" * 3 = "aaa"
-
+```
 Variabel:
 En variabel är som en liten låda där man kan spara saker, som man kan använda någon annan stans. En variabel kan inte användas om man inte har stoppat in något i den först. Annars blir datorn sur :(
 
