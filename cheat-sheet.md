@@ -18,7 +18,7 @@ a is B	# Kollar om värdet a är av typ B.
 int	# Ett vanligt heltal, kan INTE innehålla decimaler. Man slänger helt enkelt bort allt efter kommat
 float	# Ett flyttal, alltså kan det ha decimaler. Flyttal kan dessutom vara oändliga eller NaN (inte ett tal alls)
 str	# Text, t.ex. "hej". Man kan addera strängar, t.ex. "a" + "b" = "ab".
-		Man kan också multiplicera strängar, t.ex. "a" * 3 = "aaa"
+	#	Man kan också multiplicera strängar, t.ex. "a" * 3 = "aaa"
 ```
 # Variabel
 En variabel är som en liten låda där man kan spara saker, som man kan använda någon annan stans. En variabel kan inte användas om man inte har stoppat in något i den först. Annars blir datorn sur :[
@@ -34,7 +34,7 @@ X = A		# X blir samma som A, alltså 5
 ```
 
 # Syntaxguide
-`#`: Kommentar, datorn hoppar över allting efter ett `#`, tills det blir en ny rad.
+`#` : Kommentar. Datorn hoppar över allting efter ett `#`, tills det blir en ny rad.
 
 En ny rad i python är som ett nytt kommando till datorn. Man kan inte sätta två kommandon på samma rad, och det ska alltid vara minst en nyrad emellan varje kommando. Ett kommando i python kan vara en tilldelning (med `=` tecknet) eller ett funktionsanrop.
 
@@ -70,4 +70,4 @@ En while-loop ser ut så här
 	# kod utanför… 
 ```
 
-Den körs medan x är sann, det vill säga True eller inte False. När man använder något som inte är en bool i en while-loop så castas det till en bool.
+Den körs medan x är sann, det vill säga `True` eller inte `False`. När man använder något som inte är en bool i en while-loop så castas det till en bool.
