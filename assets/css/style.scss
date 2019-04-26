@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .page-header {
   padding:1.5rem !important;
@@ -18,7 +19,7 @@
 .page-header .project-name {
   padding:0px;
   margin:0px;
-  font-size:3rem !important;
+  font-size:2.675rem !important;
 }
 
 footer {
@@ -27,4 +28,16 @@ footer {
 
 .main-content {
   max-width:80rem !important;
+}
+
+li {
+    margin-bottom:0.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+:not(code) {
+    font-family: 'Quicksand', sans-serif;
 }
