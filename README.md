@@ -1,1 +1,2 @@
-[Link Cheat sheet](/cheat-sheet.html)
+[Cheat sheet](/cheat-sheet.html)
+[Arbetsblad](/worksheet.html)
