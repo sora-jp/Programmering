@@ -3,6 +3,6 @@ Här hittar du länkar till våra presentationer, arbetsblad m.m.
 
 ---
 
-[Arbetsblad](/worksheet.html)
+[Arbetsblad](Programmering/worksheet.html)
 
-[Cheat sheet](/cheat-sheet.html)
+[Cheat sheet](Programmering/cheat-sheet.html)
