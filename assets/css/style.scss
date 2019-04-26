@@ -3,10 +3,6 @@
 
 @import "{{ site.theme }}";
 
-.page_header > * {
+.page-header > * {
   display:none;
-}
-
-body {
-  background-color:black;
 }
