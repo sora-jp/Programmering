@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
-.page-header > * {
+.page-header {
+  padding: 3rem !important;
+}
+
+.page-header .btn {
   display:none;
+}
+
+.page-header .project-tagline {
+  display:none;
+}
+
+.page-header .project-name {
+  padding:0px;
+  margin:0px;
 }
