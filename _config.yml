@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      title: "Programmering Vallhamra åk 9"
