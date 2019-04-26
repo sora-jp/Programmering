@@ -42,6 +42,10 @@ h1 {
     font-family: 'Quicksand', sans-serif;
 }
 
+code, span {
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+}
+
 div.highlight {
     background: none;
 }
@@ -50,4 +54,5 @@ pre.highlight {
     border:0px black;
     border-radius: 0.5rem !important;
     background-color: #f4f6f8;
+    padding: 1rem !important;
 }
