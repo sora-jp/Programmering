@@ -12,6 +12,7 @@
 
 **	# Upphöjt till 
 		(5**3 = 5 * 5 * 5 = 125)
+
 ==	# Jämför två värden och kollar om de har samma värde
 a is B	# Kollar om värdet a är av typ B.
 ```
