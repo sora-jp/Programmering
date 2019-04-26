@@ -41,3 +41,13 @@ h1 {
 :not(code) {
     font-family: 'Quicksand', sans-serif;
 }
+
+div.highlight {
+    background: none;
+}
+
+pre.highlight {
+    border:0px black;
+    border-radius: 0.5rem !important;
+    background-color: #f4f6f8;
+}
