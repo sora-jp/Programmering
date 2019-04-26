@@ -1,5 +1,12 @@
+---
+---
+
 @import "{{ site.theme }}";
 
 .page_header > * {
   display:none;
+}
+
+body {
+  background-color:black;
 }
