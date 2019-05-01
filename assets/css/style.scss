@@ -1,33 +1,23 @@
 ---
 ---
 
+$section-headings-color: #E94057;
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .page-header {
-  padding:1.5rem !important;
-}
+    padding:1rem !important;
+    background: linear-gradient(to right, #8A2387, #E94057, #F27121);
 
-.page-header .btn {
-  display:none;
-}
-
-.page-header .project-tagline {
-  display:none;
-}
-
-.page-header .project-name {
-  padding:0px;
-  margin:0px;
-  font-size:2.675rem !important;
-}
-
-footer {
-  display:none;
+    .project-name {
+      padding:0px;
+      margin:0px;
+      font-size:2.5rem !important;
+    }
 }
 
 .main-content {
-  max-width:80rem !important;
+    max-width:80rem !important;
 }
 
 li {

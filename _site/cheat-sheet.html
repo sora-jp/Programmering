@@ -20,43 +20,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="/assets/css/style.css?v=a48c55384b6535a64b372761007ef74cadd9f1ea">
+    <link rel="stylesheet" href="/assets/css/style.css?v=ab5ba1921c9e706950c6b53c85e93e9d0fb51cf4">
   </head>
   <body>
     <header class="page-header" role="banner">
       <h1 class="project-name">Programmering Vallhamra åk 9</h1>
-      <h2 class="project-tagline"></h2>
-      
-        <a href="https://github.com/sora-jp/Programmering" class="btn">View on GitHub</a>
-      
-      
     </header>
 
     <main id="content" class="main-content" role="main">
       <h1 id="cheat-sheet">Cheat-sheet</h1>
 <hr />
+<h2 id="syntaxguide">Syntaxguide</h2>
+<p><code class="highlighter-rouge">#</code> : Kommentar. Datorn hoppar över allting efter ett <code class="highlighter-rouge">#</code>, tills det blir en ny rad.</p>
+
+<p>En ny rad i python är som ett nytt kommando till datorn. Man kan inte sätta två kommandon på samma rad, och det ska alltid vara minst en nyrad emellan varje kommando.</p>
+
+<p>Det är alltid en bra ide att kommentera sin kod, och beskriva vad den gör i stora drag, särskilt saker som inte är uppenbara genom att kolla på koden</p>
+
+<h2 id="funktionsanrop">Funktionsanrop:</h2>
+<p>Funktioner anropas med paranteser<code class="highlighter-rouge">()</code>. Man kan ge argument till en funktion genom att skriva det i paranteserna, med ett komma emellan varje argument:
+<code class="highlighter-rouge">funktion(1, två, "tre")</code></p>
+
+<h3 id="användbara-funktioner">Användbara funktioner:</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>	<span class="c"># Skriver ut värdet av x till skärmen. x kan vara (typ) vad som helst</span>
+<span class="n">A</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>	<span class="c"># Ställer en fråga. B är frågan och svaret sparas i A</span>
+<span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>	<span class="c"># Byter typ på x till float</span>
+<span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>		<span class="c"># Byter typ på x till int</span>
+<span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>		<span class="c"># Byter typ på x till string</span>
+</code></pre></div></div>
 <h2 id="matematik">Matematik</h2>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">=</span>	<span class="c"># Stoppa in värdet till höger i variabeln till vänster (i = 2)</span>
-<span class="o">+</span>	<span class="c"># Addition</span>
-<span class="o">-</span>	<span class="c"># Subtraktion</span>
-<span class="o">*</span>	<span class="c"># Multiplikation</span>
-<span class="o">/</span>	<span class="c"># Division</span>
-<span class="o">%</span>	<span class="c"># Division, men du får resten av divisionen (var försiktig med negativa tal)</span>
-		<span class="mi">5</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">9</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">1</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">=</span>       <span class="c"># Stoppa in värdet till höger i variabeln till vänster (i = 2)</span>
+<span class="o">+</span>       <span class="c"># Addition</span>
+<span class="o">-</span>       <span class="c"># Subtraktion</span>
+<span class="o">*</span>       <span class="c"># Multiplikation</span>
+<span class="o">/</span>       <span class="c"># Division</span>
+<span class="o">%</span>       <span class="c"># Division, men du får resten av divisionen (var försiktig med negativa tal)</span>
+		    <span class="mi">5</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">9</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">=</span> <span class="mi">1</span>
 
-<span class="o">**</span>	<span class="c"># Upphöjt till </span>
-		<span class="p">(</span><span class="mi">5</span><span class="o">**</span><span class="mi">3</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">=</span> <span class="mi">125</span><span class="p">)</span>
+<span class="o">**</span>      <span class="c"># Upphöjt till </span>
+		    <span class="mi">5</span><span class="o">**</span><span class="mi">3</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">=</span> <span class="mi">125</span>
 
-<span class="o">==</span>	<span class="c"># Jämför två värden och kollar om de har samma värde</span>
-<span class="n">a</span> <span class="ow">is</span> <span class="n">B</span>	<span class="c"># Kollar om värdet a är av typ B.</span>
+<span class="o">==</span>      <span class="c"># Jämför två värden och kollar om de har samma värde</span>
+<span class="o">!=</span>      <span class="c"># Jämför två värden och kollar om de har olika värde</span>
+<span class="n">a</span> <span class="o">&lt;</span> <span class="n">b</span>   <span class="c"># Kollar om a är mindre än b </span>
+<span class="n">a</span> <span class="o">&gt;</span> <span class="n">b</span>   <span class="c"># Kollar om a är större än b</span>
+<span class="n">a</span> <span class="ow">is</span> <span class="n">B</span>  <span class="c"># Kollar om värdet a är av typ B.</span>
 </code></pre></div></div>
-<h2 id="typer">Typer</h2>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">int</span>	<span class="c"># Ett vanligt heltal, kan INTE innehålla decimaler. Man slänger helt enkelt bort allt efter kommat</span>
-<span class="nb">float</span>	<span class="c"># Ett flyttal, alltså kan det ha decimaler. Flyttal kan dessutom vara oändliga eller NaN (inte ett tal alls)</span>
-<span class="nb">str</span>	<span class="c"># Text, t.ex. "hej". Man kan addera strängar, t.ex. "a" + "b" = "ab".</span>
-	<span class="c">#	Man kan också multiplicera strängar, t.ex. "a" * 3 = "aaa"</span>
-</code></pre></div></div>
-<h2 id="variabel">Variabel</h2>
+<h2 id="variabler">Variabler</h2>
 <p>En variabel är som en liten låda där man kan spara saker, som man kan använda någon annan stans. En variabel kan inte användas om man inte har stoppat in något i den först. Annars blir datorn sur :[</p>
 
 <p>Det finns ett speciellt värde som heter <code class="highlighter-rouge">None</code>. Om man stoppar in den i en variabel så “tömmer” man den. Alla variabler som man inte har använt innan har det värdet.</p>
@@ -67,50 +77,23 @@
 <span class="n">X</span> <span class="o">=</span> <span class="s">"text"</span>	<span class="c"># X blir en string</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">A</span>		<span class="c"># X blir samma som A, alltså 5</span>
 </code></pre></div></div>
-
-<h2 id="syntaxguide">Syntaxguide</h2>
-<p><code class="highlighter-rouge">#</code> : Kommentar. Datorn hoppar över allting efter ett <code class="highlighter-rouge">#</code>, tills det blir en ny rad.</p>
-
-<p>En ny rad i python är som ett nytt kommando till datorn. Man kan inte sätta två kommandon på samma rad, och det ska alltid vara minst en nyrad emellan varje kommando. Ett kommando i python kan vara en tilldelning (med <code class="highlighter-rouge">=</code> tecknet) eller ett funktionsanrop.</p>
-
-<p>Det är alltid en bra ide att kommentera sin kod, och beskriva vad den gör i stora drag, särskilt saker som inte är uppenbara genom att kolla på koden</p>
-
-<h2 id="funktionsanrop">Funktionsanrop:</h2>
-<p>Funktioner anropas med paranteser<code class="highlighter-rouge">()</code>. Man kan ge argument till en funktion genom att skriva det i paranteserna, med ett komma emellan varje argument:
-<code class="highlighter-rouge">funktion(1, två, "tre")</code></p>
-
-<h2 id="användbara-funktioner">Användbara funktioner:</h2>
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>	<span class="c"># Skriver ut värdet av x till skärmen. x kan vara (typ) vad som helst</span>
-<span class="n">A</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="n">B</span><span class="p">)</span>	<span class="c"># Ställer en fråga. B är frågan och svaret sparas i A</span>
-<span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>	<span class="c"># Byter typ på x till float</span>
-<span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>		<span class="c"># Byter typ på x till int</span>
-<span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>		<span class="c"># Byter typ på x till string</span>
+<h2 id="typer">Typer</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">int</span>	<span class="c"># Ett vanligt heltal, kan INTE innehålla decimaler. Man slänger helt enkelt bort allt efter kommat</span>
+<span class="nb">float</span>	<span class="c"># Ett flyttal, alltså kan det ha decimaler. Flyttal kan dessutom vara oändliga eller NaN (inte ett tal alls)</span>
+<span class="nb">str</span>	<span class="c"># Text, t.ex. "hej". Man kan addera strängar, t.ex. "a" + "b" = "ab".</span>
+	<span class="c">#	Man kan också multiplicera strängar, t.ex. "a" * 3 = "aaa"</span>
 </code></pre></div></div>
-<h2 id="loopar-och-annat">Loopar och annat</h2>
-<p>En loop kör en bit kod flera gånger. En for-loop ser ut så här:</p>
+<h2 id="listor">Listor</h2>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="c"># kod i loopen…</span>
-<span class="c"># kod utanför… </span>
+<p>En lista är som en rad variabler. Man kan välja en variabel från raden, och använda den som en normal variabel. Man kommer åt variabler i listor genom att sätta <code class="highlighter-rouge">[]</code> efter listans namn. Den första variabeln i en lista kommer man åt med <code class="highlighter-rouge">lista[0]</code>, Alltså börjar man räkna från noll. För att lägga till något i slutet av en lista skriver man t.ex. <code class="highlighter-rouge">lista.append(0)</code>. <code class="highlighter-rouge">range</code> är en funktion som genererar en lista med nummer som går från noll till något tal, t.ex. gör <code class="highlighter-rouge">range(50)</code> en lista som går från 0 till 50.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">lista</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span>
+<span class="n">lista</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>  <span class="c"># 0</span>
+<span class="n">lista</span><span class="p">[</span><span class="mi">25</span><span class="p">]</span> <span class="c"># 25</span>
+<span class="n">lista</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">lista</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">lista</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>  <span class="c"># 5</span>
 </code></pre></div></div>
 
-<p>Den kör koden inuti sig själv n gånger, och i är antalet gånger loopen har körts och kan användas i loopen.
-En while-loop ser ut så här</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
-    <span class="c"># kod i loopen…</span>
-<span class="c"># kod utanför… </span>
-</code></pre></div></div>
-
-<p>Den körs medan x är sann, det vill säga <code class="highlighter-rouge">True</code> eller inte <code class="highlighter-rouge">False</code>. När man använder något som inte är en bool i en while-loop så castas det till en bool.</p>
-
-
-      <footer class="site-footer">
-        
-          <span class="site-footer-owner"><a href="https://github.com/sora-jp/Programmering">Programmering</a> is maintained by <a href="https://github.com/sora-jp">sora-jp</a>.</span>
-        
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
     </main>
   </body>
 </html>
