@@ -11,4 +11,6 @@ Här hittar du länkar till våra presentationer, arbetsblad m.m.
 
 [Cheat sheet](cheat-sheet.html)
 
+[Läxa funktioner](homework-functions.html) *Läxan är frivillig, du behöver inte göra den om du inte vill.*
+
 [Ett spel som Oskar och Alex gjorde på lite mindre än tre dagar](https://ldjam.com/events/ludum-dare/44/the-cult-of-the-midnight-sun)
