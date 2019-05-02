@@ -10,6 +10,7 @@ def funktionsnamn(argument1, argument2):
 	
 	return argument1 + argument2	# Return används för att ge tillbaka ett värde.
 					# Här så adderar vi bara argumenten och ger tillbaka det.
+					# Man behöver inte ge tillbaka ett värde, utan då skriver man inte return någonstans.
 
 # Här är koden utanför funktionen. Den här koden körs som vanligt när man startar funktionen
 
