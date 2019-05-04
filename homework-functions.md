@@ -2,7 +2,7 @@
 En funktion är en bit kod som alla kan komma åt. När man kör den koden så *anropar* man funktionen. För att anropa en funktion så skriver man `()` efter funktionsnamnet. Till exempel så anropar `test()` funktionen test. När man anropar funktioner kan man ge den värden att jobba med. Dessa kallas för *argument*, och man ger dem som en komma-separerad lista innanför paranteserna. Till exempel så anropar `test(1, två, "tre")` funktionen test med heltalet `1`, variabeln `två` och strängen `"tre"` som argument. Ett argument kan vara i stort sett vad som helst. Funktionen kan också ge ett värde tillbaka. Detta värdet kallas för *retur-värde*. Om man anropar en funktion, så kan man sätta den på i stort sett alla ställen som en variabel kan vara. Till exempel så kan man fråga om någons namn med `namn = input("Vad heter du?")`. Då sparas svaret som en sträng i `namn`.
 
 ## Varför?
-Funktioner är användbara när man till exempel ska göra samma sak på flera olika ställen i ett program. Då behöver man inte kopiera koden överallt, och om man ska ändra den så behöver man bara ändra det på ett ställe, och inte flera. Det blir dessutom lite enklare att hålla koll på vad allt gör i koden, om man har bra namn på funktionerna. Funktioner kan dessutom anropa sig själva, och det går att göra mycket coola grejer med hjälp av det (*googla "recursion" om du vill veta mer*).
+Funktioner är användbara när man till exempel ska göra samma sak på flera olika ställen i ett program. Då behöver man inte kopiera koden överallt, och om man ska ändra den så behöver man bara ändra det på ett ställe, och inte flera. Det blir dessutom lite enklare att hålla koll på vad allt gör i koden, om man har bra namn på funktionerna. Funktioner kan dessutom anropa sig själva, och det går att göra mycket coola grejer med hjälp av det (*googla "recursion" om du vill veta mer*). Funktioner kan också bygga andra funktioner (*googla "function currying" och "lambda functions" för mer info*) :D
 
 ## Göra egna funktioner
 I python så finns det en massa funktioner inbyggda, men man kan också göra egna funktioner. Det gör man med nyckelordet `def`. När man gör en funktion så skriver man ungefär så här:
@@ -22,6 +22,6 @@ print(funktionsnamn(5, 4))		# Skriver ut 9 till skärmen
 ```
 
 # Uppgifter
-- a
-- b
-- c
+- Skriv en funktion som tar två argument, adderar dem, och returnerar resultatet.
+- Skriv en funktion som inte tar några argument, och returnerar strängen "Hej".
+- Skriv en funktion som tar två argument, adderar dem, skriver ut resultatet till skärmen, och inte returnerar något.
