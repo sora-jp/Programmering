@@ -81,7 +81,17 @@ lista[0] = 5
 lista[5] = 2
 lista[0]  # 5
 ```
-{% comment %}
+## If, else, elif
+När man vill att koden ska göra olika saker baserat på något värde eller input eller i stort sett vad som helst så använder man sig av ett **if-statement**. Ett if-statement ser ut så här:
+```python
+if sak:
+	# kod i if-statementen, körs om sak är sann
+elif sak2:
+	# kod som körs om sak är falskt, men sak2 är sannt
+else:
+	# kod som körs om sak och sak2 är falskt
+```
+Den gör olika saker beroende på `sak` och `sak2` i det här fallet. Först så prövas `sak`. Om `sak` är sann, så körs koden i if-blocket, och inget annat. Om `sak` är falskt, så prövas sak2. Om sak2 är sann, så körs koden i elif-blocket, och inget annat. Om `sak2` är falskt, så kör den koden i else-blocket. Else-blocket körs alltså om inget annat if- eller elif-block som hänger ihop med else-blocket har körts.
 ## Loopar och annat
 En loop kör en bit kod flera gånger. En for-loop ser ut så här: 
 
@@ -101,4 +111,3 @@ while(x):
 ```
 
 Den körs medan x är sann, det vill säga `True` eller inte `False`. När man använder något som inte är en bool i en while-loop så castas det till en bool.
-{% endcomment %}

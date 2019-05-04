@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=975d4002c658e26ea0c5cdcbf2c2d44e2c8c4352">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
       <a class="navbar-brand" href="#">Programmering - Vallhamra åk 9</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,6 +36,7 @@
           <a class="nav-item nav-link" href="index.html">Startsida</a>
           <a class="nav-item nav-link" href="cheat-sheet.html">Cheat-sheet</a>
           <a class="nav-item nav-link" href="worksheet.html">Arbetsblad</a>
+          <a class="nav-item nav-link" href="homework-functions.html">Läxa - funktioner</a>
         </div>
       </div>
     </nav>
@@ -120,6 +121,33 @@
 <span class="n">lista</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span>
 <span class="n">lista</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>  <span class="c"># 5</span>
 </code></pre></div></div>
+<h2 id="if-else-elif">If, else, elif</h2>
+<p>När man vill att koden ska göra olika saker baserat på något värde eller input eller i stort sett vad som helst så använder man sig av ett <strong>if-statement</strong>. Ett if-statement ser ut så här:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">sak</span><span class="p">:</span>
+	<span class="c"># kod i if-statementen, körs om sak är sann</span>
+<span class="k">elif</span> <span class="n">sak2</span><span class="p">:</span>
+	<span class="c"># kod som körs om sak är falskt, men sak2 är sannt</span>
+<span class="k">else</span><span class="p">:</span>
+	<span class="c"># kod som körs om sak och sak2 är falskt</span>
+</code></pre></div></div>
+<p>Den gör olika saker beroende på <code class="highlighter-rouge">sak</code> och <code class="highlighter-rouge">sak2</code> i det här fallet. Först så prövas <code class="highlighter-rouge">sak</code>. Om <code class="highlighter-rouge">sak</code> är sann, så körs koden i if-blocket, och inget annat. Om <code class="highlighter-rouge">sak</code> är falskt, så prövas sak2. Om sak2 är sann, så körs koden i elif-blocket, och inget annat. Om <code class="highlighter-rouge">sak2</code> är falskt, så kör den koden i else-blocket. Else-blocket körs alltså om inget annat if- eller elif-block som hänger ihop med else-blocket har körts.</p>
+<h2 id="loopar-och-annat">Loopar och annat</h2>
+<p>En loop kör en bit kod flera gånger. En for-loop ser ut så här:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="c"># kod i loopen…</span>
+<span class="c"># kod utanför… </span>
+</code></pre></div></div>
+
+<p>Den kör koden inuti sig själv n gånger, och i är antalet gånger loopen har körts och kan användas i loopen.
+En while-loop ser ut så här</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="c"># kod i loopen…</span>
+<span class="c"># kod utanför… </span>
+</code></pre></div></div>
+
+<p>Den körs medan x är sann, det vill säga <code class="highlighter-rouge">True</code> eller inte <code class="highlighter-rouge">False</code>. När man använder något som inte är en bool i en while-loop så castas det till en bool.</p>
 
     </main>
   </body>
