@@ -5,8 +5,7 @@ $section-headings-color: #E94057;
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-.page-header {
-    padding:1rem !important;
+.navbar {
     background: linear-gradient(to right, #8A2387, #E94057, #F27121);
 
     .project-name {

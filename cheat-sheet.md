@@ -1,9 +1,22 @@
 # Cheat-sheet
 -------------------------------------
 ## Syntaxguide
-`#` : Kommentar. Datorn hoppar över allting efter ett `#`, tills det blir en ny rad.
 
+Varje program i python körs från top till botten, om man skriver till exempel
+```python
+a = 5
+a = 3
+print(a) # a är 3
+```
+Är det inte samma sak som att skriva
+```python
+a = 3
+a = 5
+print(a) # a är 5
+```
 En ny rad i python är som ett nytt kommando till datorn. Man kan inte sätta två kommandon på samma rad, och det ska alltid vara minst en nyrad emellan varje kommando.
+
+`#` : Kommentar. Datorn hoppar över allting efter ett `#`, tills det blir en ny rad.
 
 Det är alltid en bra ide att kommentera sin kod, och beskriva vad den gör i stora drag, särskilt saker som inte är uppenbara genom att kolla på koden
 
