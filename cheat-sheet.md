@@ -111,3 +111,5 @@ while(x):
 ```
 
 Den körs medan x är sann, det vill säga `True` eller inte `False`. När man använder något som inte är en bool i en while-loop så castas det till en bool.
+## Debugging, eller konsten att fixa sina misstag
+Detta är något av det viktigaste att kunna när man programmerar. F
