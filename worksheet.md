@@ -3,7 +3,7 @@
 ## Del 1
 * Skapa en ny repl.it
 * Skriv ett program som skriver ut "Hello, world!" till skärmen.
-* Skriv ett program som frågar om ditt namn, och sedan skriver "Hej, \<ditt namn\>" till skärmen.
+* Skriv ett program som frågar om ditt namn, och sedan skriver "Hej, " följt av det du svarade till skärmen.
 * Skriv ett program som frågar om två nummer, adderar dem, och skriver resultatet till skärmen.
 * Skriv ett program som frågar om två nummer, multiplicerar dem, och skriver resultatet till skärmen.
 * Skriv ett program som frågar om in ett nummer, och skriver ut om numret är jämt eller udda.
