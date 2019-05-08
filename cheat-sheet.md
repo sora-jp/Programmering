@@ -1,4 +1,4 @@
-# Cheat-sheet
+# Lathund
 -------------------------------------
 ## Syntaxguide
 
